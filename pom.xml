@@ -26,6 +26,12 @@
   <packaging>pom</packaging>
   <name>Marwen Portal Extension</name>
   <description>Marwen eXo Configured Portal</description>
+
+  <properties>
+    <extension.final.build.name>marwen-portal-extension</extension.final.build.name>
+    <extension.index>50</extension.index>
+  </properties>
+
   <modules>
     <module>config</module>
     <module>war</module>
