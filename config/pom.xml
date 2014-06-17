@@ -29,4 +29,8 @@
   <packaging>jar</packaging>
   <name>Marwen Portal Extension Configuration</name>
   <description>Extension Configuration</description>
+
+  <build>
+    <finalName>${extension.final.build.name}-config</finalName>
+  </build>
 </project>

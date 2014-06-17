@@ -29,7 +29,9 @@
   <packaging>war</packaging>
   <name>Marwen Portal Extension War</name>
   <description>Marwen Extension War</description>
+
   <build>
-    <finalName>marwen-portal-extension</finalName>
+    <finalName>${extension.final.build.name}</finalName>
   </build>
+
 </project>
