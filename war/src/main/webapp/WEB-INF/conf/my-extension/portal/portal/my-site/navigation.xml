@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright (C) 2009 eXo Platform SAS.
+    
+    This is free software; you can redistribute it and/or modify it
+    under the terms of the GNU Lesser General Public License as
+    published by the Free Software Foundation; either version 2.1 of
+    the License, or (at your option) any later version.
+    
+    This software is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+    Lesser General Public License for more details.
+    
+    You should have received a copy of the GNU Lesser General Public
+    License along with this software; if not, write to the Free
+    Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+    02110-1301 USA, or see the FSF site: http://www.fsf.org.
+
+-->
+
+<node-navigation
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.gatein.org/xml/ns/gatein_objects_1_0 http://www.gatein.org/xml/ns/gatein_objects_1_0"
+    xmlns="http://www.gatein.org/xml/ns/gatein_objects_1_0">
+  <priority>1</priority>
+  <page-nodes>
+	<node>
+	  <name>home</name>
+      <label xml:lang="en">Home</label>
+      <label xml:lang="fr">Accueil</label>
+      <label xml:lang="es">Inicio</label>
+      <label xml:lang="de">Startseite</label>
+      <label xml:lang="it">Home</label>
+      <label xml:lang="nl">Home</label>
+      <label xml:lang="pt-BR">Principal</label>
+      <label xml:lang="ja">&#x30db;&#x30fc;&#x30e0;</label>
+      <label xml:lang="ne">&#x0917;&#x0943;&#x0939; &#x092a;&#x0943;&#x0937;&#x094d;&#x200d;&#x0920;</label>
+      <label xml:lang="ru">Главная</label>
+      <label xml:lang="uk">Додому</label>
+      <label xml:lang="ar">ترحيب</label>
+      <label xml:lang="ko">홈</label>
+      <label xml:lang="vi">Trang chủ</label>
+      <label xml:lang="zh">主页</label>
+      <label xml:lang="zh-TW">首頁</label>
+	  <page-reference>portal::my-site::homepage</page-reference>
+	</node>   
+    <node>
+      <name>sitemap</name>
+      <label xml:lang="en">SiteMap</label>
+      <label xml:lang="fr">Plan du site</label>
+      <label xml:lang="es">Mapa del Sitio</label>
+      <label xml:lang="de">Seiten&#x00fc;bersicht</label>
+      <label xml:lang="it">Mappa del Sito</label>
+      <label xml:lang="nl">Sitemap</label>
+      <label xml:lang="pt-BR">Mapa do Site</label>
+      <label xml:lang="ja">&#x30b5;&#x30a4;&#x30c8;&#x30de;&#x30c3;&#x30d7;</label>
+      <label xml:lang="ne">&#x0938;&#x093e;&#x0908;&#x091f;&#x092e;&#x094d;&#x092f;&#x093e;&#x092a;</label>
+      <label xml:lang="ru">SiteMap</label>
+      <label xml:lang="ar">خريطة الموقع</label>
+      <label xml:lang="ko">사이트맵</label>
+      <label xml:lang="vi">Sơ đồ</label>
+      <label xml:lang="zh">网站地图</label>
+      <label xml:lang="zh-TW">網站導覽</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::sitemap</page-reference>
+    </node>
+	  <node>
+	    <name>groupnavigation</name>
+        <label xml:lang="en">Group Navigation</label>
+        <label xml:lang="fr">Group Navigation</label>
+        <label xml:lang="es">Navegaci&#x00f3;n por Grupos</label>
+        <label xml:lang="de">Gruppennavigation</label>
+        <label xml:lang="it">Navigazione dei Gruppi</label>
+        <label xml:lang="nl">Groep navigatie</label>
+        <label xml:lang="pt-BR">Navegação do Grupo</label>
+        <label xml:lang="ja">&#x30b0;&#x30eb;&#x30fc;&#x30d7;&#x30ca;&#x30d3;&#x30b2;&#x30fc;&#x30b7;&#x30e7;&#x30f3;</label>
+        <label xml:lang="ne">&#x0938;&#x092e;&#x0941;&#x0939; &#x0928;&#x094d;&#x092f;&#x093e;&#x092d;&#x093f;&#x0917;&#x0947;&#x0938;&#x0928;</label>
+        <label xml:lang="ru">Навигация по группам</label>
+        <label xml:lang="uk">Навігація груп</label>
+        <label xml:lang="ar">مجموعة الملاحة</label>
+        <label xml:lang="ko">그룹 내비게이션</label>
+        <label xml:lang="vi">Group Navigation</label>
+        <label xml:lang="zh">组导航</label>
+        <label xml:lang="zh-TW">瀏覽群組</label>
+        <visibility>SYSTEM</visibility>
+	    <page-reference>portal::my-site::groupnavigation</page-reference>
+	  </node>
+	  <node>
+	    <name>portalnavigation</name>
+        <label xml:lang="en">Portal Navigation</label>
+        <label xml:lang="fr">Portal Navigation</label>
+        <label xml:lang="es">Navegaci&#x00f3;n por Portales</label>
+        <label xml:lang="de">Portalnavigation</label>
+        <label xml:lang="it">Navigazione del Portale</label>
+        <label xml:lang="nl">Portaal navigatie</label>
+        <label xml:lang="pt-BR">Navegação do Portal</label>
+        <label xml:lang="ja">&#x30dd;&#x30fc;&#x30bf;&#x30eb;&#x30ca;&#x30d3;&#x30b2;&#x30fc;&#x30b7;&#x30e7;&#x30f3;</label>
+        <label xml:lang="ne">&#x092a;&#x094b;&#x0930;&#x094d;&#x091f;&#x0932; &#x0928;&#x094d;&#x092f;&#x093e;&#x092d;&#x093f;&#x0917;&#x0947;&#x0938;&#x0928;</label>
+        <label xml:lang="ru">Навигация по порталу</label>
+        <label xml:lang="uk">Навігація порталу</label>
+        <label xml:lang="ar">بوابة الملاحة</label>
+        <label xml:lang="ko">포탈 내비게이션</label>
+        <label xml:lang="vi">Portal Navigation</label>
+        <label xml:lang="zh">门户导航</label>
+        <label xml:lang="zh-TW">瀏覽入口網</label>
+        <visibility>SYSTEM</visibility>
+	    <page-reference>portal::my-site::portalnavigation</page-reference>
+	  </node>
+	  
+	  <node>
+	    <name>register</name>
+        <label xml:lang="en">Register</label>
+        <label xml:lang="es">Registrarse</label>
+        <label xml:lang="de">Registrieren</label>
+        <label xml:lang="it">Registrazione</label>
+        <label xml:lang="nl">Registreren</label>
+        <label xml:lang="pt-BR">Cadastrar-se</label>
+        <label xml:lang="ja">&#x767b;&#x9332;</label>
+        <label xml:lang="ne">&#x0926;&#x0930;&#x094d;&#x0924;&#x093e;</label>
+        <label xml:lang="ko">등록</label>
+        <label xml:lang="vi">Đăng ký</label>
+        <label xml:lang="zh">注册</label>
+        <label xml:lang="zh-TW">註冊</label>
+        <visibility>SYSTEM</visibility>
+	    <page-reference>portal::my-site::register</page-reference>	    
+	  </node>
+	  
+	  <!-- NOT FOUND node -->
+	  <node>
+	    <name>notfound</name>
+	    <label>NotFound</label>
+        <visibility>SYSTEM</visibility>
+	  </node>
+
+    <node>
+      <uri>simplepage1</uri>
+      <name>simplepage1</name>
+      <label>#{portal.my-site.simplepage1}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage1</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage2</uri>
+      <name>simplepage2</name>
+      <label>#{portal.my-site.simplepage2}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage2</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage3</uri>
+      <name>simplepage3</name>
+      <label>#{portal.my-site.simplepage3}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage3</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage4</uri>
+      <name>simplepage4</name>
+      <label>#{portal.my-site.simplepage4}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage4</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage5</uri>
+      <name>simplepage5</name>
+      <label>#{portal.my-site.simplepage5}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage5</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage6</uri>
+      <name>simplepage6</name>
+      <label>#{portal.my-site.simplepage6}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage6</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage7</uri>
+      <name>simplepage7</name>
+      <label>#{portal.my-site.simplepage7}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage7</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage8</uri>
+      <name>simplepage8</name>
+      <label>#{portal.my-site.simplepage8}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage8</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage9</uri>
+      <name>simplepage9</name>
+      <label>#{portal.my-site.simplepage9}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage9</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage10</uri>
+      <name>simplepage10</name>
+      <label>#{portal.my-site.simplepage10}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage10</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage11</uri>
+      <name>simplepage11</name>
+      <label>#{portal.my-site.simplepage1.simplepage11}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage1::simplepage11</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage12</uri>
+      <name>simplepage12</name>
+      <label>#{portal.my-site.simplepage1.simplepage12}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage1::simplepage12</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage13</uri>
+      <name>simplepage13</name>
+      <label>#{portal.my-site.simplepage1.simplepage13}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage1::simplepage13</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage14</uri>
+      <name>simplepage14</name>
+      <label>#{portal.my-site.simplepage1.simplepage14}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage1::simplepage14</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage15</uri>
+      <name>simplepage15</name>
+      <label>#{portal.my-site.simplepage1.simplepage15}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage1::simplepage15</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage16</uri>
+      <name>simplepage16</name>
+      <label>#{portal.my-site.simplepage1.simplepage16}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage1::simplepage16</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage17</uri>
+      <name>simplepage17</name>
+      <label>#{portal.my-site.simplepage1.simplepage17}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage1::simplepage17</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage18</uri>
+      <name>simplepage18</name>
+      <label>#{portal.my-site.simplepage1.simplepage18}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage1::simplepage18</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage19</uri>
+      <name>simplepage19</name>
+      <label>#{portal.my-site.simplepage1.simplepage19}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage1::simplepage19</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage20</uri>
+      <name>simplepage20</name>
+      <label>#{portal.my-site.simplepage1.simplepage20}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage1::simplepage20</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage21</uri>
+      <name>simplepage21</name>
+      <label>#{portal.my-site.simplepage2.simplepage21}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage2::simplepage21</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage22</uri>
+      <name>simplepage22</name>
+      <label>#{portal.my-site.simplepage2.simplepage22}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage2::simplepage22</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage23</uri>
+      <name>simplepage23</name>
+      <label>#{portal.my-site.simplepage2.simplepage23}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage2::simplepage23</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage24</uri>
+      <name>simplepage24</name>
+      <label>#{portal.my-site.simplepage2.simplepage24}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage2::simplepage24</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage25</uri>
+      <name>simplepage25</name>
+      <label>#{portal.my-site.simplepage2.simplepage25}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage2::simplepage25</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage26</uri>
+      <name>simplepage26</name>
+      <label>#{portal.my-site.simplepage2.simplepage26}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage2::simplepage26</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage27</uri>
+      <name>simplepage27</name>
+      <label>#{portal.my-site.simplepage2.simplepage27}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage2::simplepage27</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage28</uri>
+      <name>simplepage28</name>
+      <label>#{portal.my-site.simplepage2.simplepage28}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage2::simplepage28</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage29</uri>
+      <name>simplepage29</name>
+      <label>#{portal.my-site.simplepage2.simplepage29}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage2::simplepage29</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage30</uri>
+      <name>simplepage30</name>
+      <label>#{portal.my-site.simplepage2.simplepage30}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage2::simplepage30</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage31</uri>
+      <name>simplepage31</name>
+      <label>#{portal.my-site.simplepage3.simplepage31}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage3::simplepage31</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage32</uri>
+      <name>simplepage32</name>
+      <label>#{portal.my-site.simplepage3.simplepage32}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage3::simplepage32</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage33</uri>
+      <name>simplepage33</name>
+      <label>#{portal.my-site.simplepage3.simplepage33}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage3::simplepage33</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage34</uri>
+      <name>simplepage34</name>
+      <label>#{portal.my-site.simplepage3.simplepage34}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage3::simplepage34</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage35</uri>
+      <name>simplepage35</name>
+      <label>#{portal.my-site.simplepage3.simplepage35}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage3::simplepage35</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage36</uri>
+      <name>simplepage36</name>
+      <label>#{portal.my-site.simplepage3.simplepage36}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage3::simplepage36</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage37</uri>
+      <name>simplepage37</name>
+      <label>#{portal.my-site.simplepage3.simplepage37}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage3::simplepage37</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage38</uri>
+      <name>simplepage38</name>
+      <label>#{portal.my-site.simplepage3.simplepage38}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage3::simplepage38</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage39</uri>
+      <name>simplepage39</name>
+      <label>#{portal.my-site.simplepage3.simplepage39}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage3::simplepage39</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage40</uri>
+      <name>simplepage40</name>
+      <label>#{portal.my-site.simplepage3.simplepage40}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage3::simplepage40</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage41</uri>
+      <name>simplepage41</name>
+      <label>#{portal.my-site.simplepage4.simplepage41}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage4::simplepage41</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage42</uri>
+      <name>simplepage42</name>
+      <label>#{portal.my-site.simplepage4.simplepage42}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage4::simplepage42</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage43</uri>
+      <name>simplepage43</name>
+      <label>#{portal.my-site.simplepage4.simplepage43}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage4::simplepage43</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage44</uri>
+      <name>simplepage44</name>
+      <label>#{portal.my-site.simplepage4.simplepage44}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage4::simplepage44</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage45</uri>
+      <name>simplepage45</name>
+      <label>#{portal.my-site.simplepage4.simplepage45}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage4::simplepage45</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage46</uri>
+      <name>simplepage46</name>
+      <label>#{portal.my-site.simplepage4.simplepage46}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage4::simplepage46</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage47</uri>
+      <name>simplepage47</name>
+      <label>#{portal.my-site.simplepage4.simplepage47}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage4::simplepage47</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage48</uri>
+      <name>simplepage48</name>
+      <label>#{portal.my-site.simplepage4.simplepage48}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage4::simplepage48</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage49</uri>
+      <name>simplepage49</name>
+      <label>#{portal.my-site.simplepage4.simplepage49}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage4::simplepage49</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage50</uri>
+      <name>simplepage50</name>
+      <label>#{portal.my-site.simplepage4.simplepage50}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage4::simplepage50</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage51</uri>
+      <name>simplepage51</name>
+      <label>#{portal.my-site.simplepage5.simplepage51}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage5::simplepage51</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage52</uri>
+      <name>simplepage52</name>
+      <label>#{portal.my-site.simplepage5.simplepage52}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage5::simplepage52</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage53</uri>
+      <name>simplepage53</name>
+      <label>#{portal.my-site.simplepage5.simplepage53}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage5::simplepage53</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage54</uri>
+      <name>simplepage54</name>
+      <label>#{portal.my-site.simplepage5.simplepage54}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage5::simplepage54</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage55</uri>
+      <name>simplepage55</name>
+      <label>#{portal.my-site.simplepage5.simplepage55}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage5::simplepage55</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage56</uri>
+      <name>simplepage56</name>
+      <label>#{portal.my-site.simplepage5.simplepage56}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage5::simplepage56</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage57</uri>
+      <name>simplepage57</name>
+      <label>#{portal.my-site.simplepage5.simplepage57}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage5::simplepage57</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage58</uri>
+      <name>simplepage58</name>
+      <label>#{portal.my-site.simplepage5.simplepage58}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage5::simplepage58</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage59</uri>
+      <name>simplepage59</name>
+      <label>#{portal.my-site.simplepage5.simplepage59}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage5::simplepage59</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage60</uri>
+      <name>simplepage60</name>
+      <label>#{portal.my-site.simplepage5.simplepage60}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage5::simplepage60</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage61</uri>
+      <name>simplepage61</name>
+      <label>#{portal.my-site.simplepage6.simplepage61}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage6::simplepage61</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage62</uri>
+      <name>simplepage62</name>
+      <label>#{portal.my-site.simplepage6.simplepage62}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage6::simplepage62</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage63</uri>
+      <name>simplepage63</name>
+      <label>#{portal.my-site.simplepage6.simplepage63}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage6::simplepage63</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage64</uri>
+      <name>simplepage64</name>
+      <label>#{portal.my-site.simplepage6.simplepage64}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage6::simplepage64</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage65</uri>
+      <name>simplepage65</name>
+      <label>#{portal.my-site.simplepage6.simplepage65}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage6::simplepage65</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage66</uri>
+      <name>simplepage66</name>
+      <label>#{portal.my-site.simplepage6.simplepage66}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage6::simplepage66</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage67</uri>
+      <name>simplepage67</name>
+      <label>#{portal.my-site.simplepage6.simplepage67}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage6::simplepage67</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage68</uri>
+      <name>simplepage68</name>
+      <label>#{portal.my-site.simplepage6.simplepage68}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage6::simplepage68</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage69</uri>
+      <name>simplepage69</name>
+      <label>#{portal.my-site.simplepage6.simplepage69}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage6::simplepage69</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage70</uri>
+      <name>simplepage70</name>
+      <label>#{portal.my-site.simplepage6.simplepage70}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage6::simplepage70</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage71</uri>
+      <name>simplepage71</name>
+      <label>#{portal.my-site.simplepage7.simplepage71}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage7::simplepage71</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage72</uri>
+      <name>simplepage72</name>
+      <label>#{portal.my-site.simplepage7.simplepage72}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage7::simplepage72</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage73</uri>
+      <name>simplepage73</name>
+      <label>#{portal.my-site.simplepage7.simplepage73}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage7::simplepage73</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage74</uri>
+      <name>simplepage74</name>
+      <label>#{portal.my-site.simplepage7.simplepage74}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage7::simplepage74</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage75</uri>
+      <name>simplepage75</name>
+      <label>#{portal.my-site.simplepage7.simplepage75}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage7::simplepage75</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage76</uri>
+      <name>simplepage76</name>
+      <label>#{portal.my-site.simplepage7.simplepage76}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage7::simplepage76</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage77</uri>
+      <name>simplepage77</name>
+      <label>#{portal.my-site.simplepage7.simplepage77}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage7::simplepage77</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage78</uri>
+      <name>simplepage78</name>
+      <label>#{portal.my-site.simplepage7.simplepage78}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage7::simplepage78</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage79</uri>
+      <name>simplepage79</name>
+      <label>#{portal.my-site.simplepage7.simplepage79}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage7::simplepage79</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage80</uri>
+      <name>simplepage80</name>
+      <label>#{portal.my-site.simplepage7.simplepage80}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage7::simplepage80</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage81</uri>
+      <name>simplepage81</name>
+      <label>#{portal.my-site.simplepage8.simplepage81}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage8::simplepage81</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage82</uri>
+      <name>simplepage82</name>
+      <label>#{portal.my-site.simplepage8.simplepage82}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage8::simplepage82</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage83</uri>
+      <name>simplepage83</name>
+      <label>#{portal.my-site.simplepage8.simplepage83}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage8::simplepage83</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage84</uri>
+      <name>simplepage84</name>
+      <label>#{portal.my-site.simplepage8.simplepage84}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage8::simplepage84</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage85</uri>
+      <name>simplepage85</name>
+      <label>#{portal.my-site.simplepage8.simplepage85}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage8::simplepage85</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage86</uri>
+      <name>simplepage86</name>
+      <label>#{portal.my-site.simplepage8.simplepage86}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage8::simplepage86</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage87</uri>
+      <name>simplepage87</name>
+      <label>#{portal.my-site.simplepage8.simplepage87}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage8::simplepage87</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage88</uri>
+      <name>simplepage88</name>
+      <label>#{portal.my-site.simplepage8.simplepage88}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage8::simplepage88</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage89</uri>
+      <name>simplepage89</name>
+      <label>#{portal.my-site.simplepage8.simplepage89}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage8::simplepage89</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage90</uri>
+      <name>simplepage90</name>
+      <label>#{portal.my-site.simplepage8.simplepage90}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage8::simplepage90</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage91</uri>
+      <name>simplepage91</name>
+      <label>#{portal.my-site.simplepage9.simplepage91}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage9::simplepage91</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage92</uri>
+      <name>simplepage92</name>
+      <label>#{portal.my-site.simplepage9.simplepage92}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage9::simplepage92</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage93</uri>
+      <name>simplepage93</name>
+      <label>#{portal.my-site.simplepage9.simplepage93}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage9::simplepage93</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage94</uri>
+      <name>simplepage94</name>
+      <label>#{portal.my-site.simplepage9.simplepage94}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage9::simplepage94</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage95</uri>
+      <name>simplepage95</name>
+      <label>#{portal.my-site.simplepage9.simplepage95}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage9::simplepage95</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage96</uri>
+      <name>simplepage96</name>
+      <label>#{portal.my-site.simplepage9.simplepage96}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage9::simplepage96</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage97</uri>
+      <name>simplepage97</name>
+      <label>#{portal.my-site.simplepage9.simplepage97}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage9::simplepage97</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage98</uri>
+      <name>simplepage98</name>
+      <label>#{portal.my-site.simplepage9.simplepage98}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage9::simplepage98</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage99</uri>
+      <name>simplepage99</name>
+      <label>#{portal.my-site.simplepage9.simplepage99}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage9::simplepage99</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage100</uri>
+      <name>simplepage100</name>
+      <label>#{portal.my-site.simplepage9.simplepage100}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage9::simplepage100</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage101</uri>
+      <name>simplepage101</name>
+      <label>#{portal.my-site.simplepage10.simplepage101}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage10::simplepage101</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage102</uri>
+      <name>simplepage102</name>
+      <label>#{portal.my-site.simplepage10.simplepage102}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage10::simplepage102</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage103</uri>
+      <name>simplepage103</name>
+      <label>#{portal.my-site.simplepage10.simplepage103}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage10::simplepage103</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage104</uri>
+      <name>simplepage104</name>
+      <label>#{portal.my-site.simplepage10.simplepage104}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage10::simplepage104</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage105</uri>
+      <name>simplepage105</name>
+      <label>#{portal.my-site.simplepage10.simplepage105}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage10::simplepage105</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage106</uri>
+      <name>simplepage106</name>
+      <label>#{portal.my-site.simplepage10.simplepage106}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage10::simplepage106</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage107</uri>
+      <name>simplepage107</name>
+      <label>#{portal.my-site.simplepage10.simplepage107}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage10::simplepage107</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage108</uri>
+      <name>simplepage108</name>
+      <label>#{portal.my-site.simplepage10.simplepage108}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage10::simplepage108</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage109</uri>
+      <name>simplepage109</name>
+      <label>#{portal.my-site.simplepage10.simplepage109}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage10::simplepage109</page-reference>
+    </node>
+
+    <node>
+      <uri>simplepage110</uri>
+      <name>simplepage110</name>
+      <label>#{portal.my-site.simplepage10.simplepage110}</label>
+      <visibility>DISPLAYED</visibility>
+      <page-reference>portal::my-site::simplepage10::simplepage110</page-reference>
+    </node>
+
+
+  </page-nodes>
+</node-navigation>

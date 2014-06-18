@@ -29,7 +29,7 @@
 
   <properties>
     <extension.final.build.name>marwen-portal-extension</extension.final.build.name>
-    <extension.index>50</extension.index>
+    <extension.index>1</extension.index>
   </properties>
 
   <modules>
